@@ -31,5 +31,6 @@ def soundex(word):
 
     return (soundex_code + "000")[:6]
 
+
 print(soundex("Robert"))
 print(soundex("Rupert"))
